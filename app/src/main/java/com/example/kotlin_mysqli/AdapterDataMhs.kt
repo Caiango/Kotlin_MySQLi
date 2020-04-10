@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class AdapterDataMhs (val dataMhs: List<HashMap<String, String>>) :
 RecyclerView.Adapter<AdapterDataMhs.HolderDataMhs>() {
+    lateinit var texto: String
     override fun onCreateViewHolder(
         p0: ViewGroup,
         p1: Int

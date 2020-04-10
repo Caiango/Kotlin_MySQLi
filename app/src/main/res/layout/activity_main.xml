@@ -99,10 +99,20 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listMhs"
-        android:layout_width="396dp"
-        android:layout_height="347dp"
+        android:layout_width="381dp"
+        android:layout_height="246dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonUpdate" />
+
+    <TextView
+        android:id="@+id/textViewTexto"
+        android:layout_width="142dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listMhs" />
 </androidx.constraintlayout.widget.ConstraintLayout>

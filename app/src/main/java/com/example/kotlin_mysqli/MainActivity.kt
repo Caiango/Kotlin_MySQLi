@@ -117,6 +117,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     mhs.put("user_id", jsonObject.getString("user_id"))
                     mhs.put("user_nome", jsonObject.getString("user_nome"))
                     mhs.put("task_name", jsonObject.getString("task_name"))
+                    textViewTexto.text = jsonObject.getString("task_name")
                     listaDados.add(mhs)
                 }
                 mhsAdapter.notifyDataSetChanged()
